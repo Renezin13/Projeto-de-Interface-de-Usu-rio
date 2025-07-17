@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tabelas {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.tabela {
+    padding: 15px;
+    border: 3px solid;
+    border-radius: 8px;
+    width: 200px;
+    list-style-type: none;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Cores diferentes por tipo */
+.nome {
+    border-color: #0077cc;
+}
+
+.username {
+    border-color: #28a745;
+}
+
+.cidade {
+    border-color: #ff8800;
+}
